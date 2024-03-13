@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Branch Name Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	
+	<div class="row row-top">
+		<div class="col-xs-12">
+			<h1>Branch Name Generator</h1>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-12 col-sm-3">
+			<div class="form-group">
+				<label for="type">Type</label>
+				<select id="type" class="form-control">
+					<option value="feature" selected>Feature</option>
+					<option value="bugfix">Bug</option>
+          <option value="">Custom</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="form-group">
+				<label for="ticket_name">Ticket Name</label>
+				<input type="text" id="ticket_name" class="form-control" />
+			</div>
+		</div>
+	</div>
+	
+	<div class="row row-top">
+		<div class="col-xs-12">
+			<label for="branch_name">Branch Name</label>
+			<textarea id="branch_name" class="form-control"></textarea>
+		</div>
+	</div>
+	
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
